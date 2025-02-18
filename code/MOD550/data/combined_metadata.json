@@ -1,0 +1,20 @@
+{
+    "dataset1": {
+        "type": "function",
+        "num_points": 150,
+        "x_range": [
+            0,
+            6.283185307179586
+        ],
+        "function": "sin",
+        "noise_level": 0.2
+    },
+    "dataset2": {
+        "type": "custom",
+        "num_points": 150,
+        "shape": "circle",
+        "radius": 5,
+        "noise_level": 0.3
+    },
+    "total_points": 300
+}
