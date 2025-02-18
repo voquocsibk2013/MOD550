@@ -163,7 +163,7 @@ print(combined_metadata)
 
 # 4. Write a File with the Data and Save the Plots
 
-output_dir = os.path.join(",,", "data")
+output_dir = os.path.join("..", "data")
 os.makedirs(output_dir, exist_ok=True)
 
 # Save the combined dataset as a CSV file.
