@@ -187,7 +187,6 @@ metadata_file = os.path.join(output_dir, "combined_metadata.json")
 with open(metadata_file, "w") as f:
     json.dump(combined_metadata, f, indent=4)
 
-print("Task 3, 4, and 5 completed.")
 print("Combined data saved to:", data_file)
 print("Plot saved to:", plot_file)
 print("Metadata saved to:", metadata_file)
