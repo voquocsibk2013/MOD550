@@ -2,6 +2,9 @@ import os
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.pipeline import make_pipeline
 
 # 1. A class to generate 2D datasets
 class DataGenerator2D:
@@ -190,4 +193,5 @@ with open(metadata_file, "w") as f:
 print("Combined data saved to:", data_file)
 print("Plot saved to:", plot_file)
 print("Metadata saved to:", metadata_file)
+
 
